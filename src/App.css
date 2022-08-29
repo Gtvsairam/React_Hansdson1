@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+body{
+  background-image: linear-gradient(#f6d4da ,#baf6ba,#f6d4da);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header{
+  text-align: center;
+  color: rgb(43, 39, 36);
+  text-shadow: 3px 3px 4px rgb(255, 157, 0);
+}
+.first_box{
+  height: 30vh ;
+  position: absolute;
+  top: 250px;
+  left: 320px;
+  text-align: center;
+  width: 400px;
+  box-shadow: 8px 8px 8px rgba(223, 175, 88, 0.363);
+  /* box-sizing: border-box; */
+  border-radius: 20px;
+  background-color: #8dddc4d0;
+}
+.content1{
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(254, 82, 9, 0.904);
+  font-size: 1.6rem;
+}
+.external_css{
+  color: blueviolet;
+}
+p{
+  font-family: 'Dancing Script', cursive;
+}
+.external_css1{
+  color: rgb(255, 0, 98);
+}
+.second_box{
+ position: absolute;
+ top: 250px;
+  height: 30vh ;
+  left: 800px;
+  text-align: center;
+  width: 400px;
+  box-shadow: 8px 8px 8px rgba(223, 175, 88, 0.363);
+  /* box-sizing: border-box; */
+  border-radius: 20px;
+  background-color: #ffa600a2 ;
+}
+.class_btn{
+  padding: 20px;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-left: 500px;
+  margin-right: 50px;
+  border: none;
+  background-color: #2ae4d1e5;
+  color: rgb(247, 235, 235);;
+  box-shadow: 0px 14px 10px #4d9b9ed2;
+  /* font-size: 15px; */
+  cursor: pointer;
+}
+.class_btn:hover{
+  background-color: rgb(19, 247, 255);
+  color: #362712;
+  box-shadow: 0px 10px 10px #4d9b9ed2;
+  font-weight: bold;
+}
+.function_btn{
+  padding: 20px;
+  border-radius: 30px;
+  margin-top: 30px;
+  background-color: #f19c2d;
+  color: rgb(247, 235, 235);
+  border: none;
+  box-shadow: 0px 5px 10px #df9a1a;
+}
+.function_btn:hover{
+  background-color: #ffa600;
+  color: #362712;
+  box-shadow: 0px 10px 10px #df9a1a;
+  font-weight: bold;
+}
+
