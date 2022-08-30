@@ -25,7 +25,7 @@ import './App.css';
       <>
       <div className="header"><h1>Styiling using Functional and Class Component</h1></div>
       <button className='class_btn' onClick={this.showBox}>To See Styling In Class Component</button>
-      <button className='function_btn' onClick={this.showFunctional}>To See Styling In Class Component</button>
+      <button className='function_btn' onClick={this.showFunctional}>To See Styling In Functional Component</button>
       {this.state.showClass && <Class/>}
       {this.state.showFunction && <Function/>}
       </>
